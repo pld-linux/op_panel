@@ -1,0 +1,12 @@
+diff -uNr op_panel-0.26.orig/init/op_panel_redhat.sh op_panel-0.26/init/op_panel_redhat.sh
+--- op_panel-0.26.orig/init/op_panel_redhat.sh	2006-05-10 14:03:40.000000000 +0200
++++ op_panel-0.26/init/op_panel_redhat.sh	2006-05-13 14:47:58.000000000 +0200
+@@ -7,7 +7,7 @@
+ # source function library
+ . /etc/rc.d/init.d/functions
+ 
+-DAEMON=/usr/local/operator/op_server.pl
++DAEMON=/usr/bin/op_server.pl
+ OPTIONS=-d
+ RETVAL=0
+ 
