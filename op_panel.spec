@@ -14,16 +14,16 @@ BuildRequires:	rpmbuild(macros) >= 1.228
 Requires(post,preun):	/sbin/chkconfig
 #Requires:	apache >= 2
 #Requires:	asterisk >= 1.2
-#Requires:	mysql-client
 #Requires:	mysql
+#Requires:	mysql-client
 Requires:	perl-CPAN
 Requires:	perl-IPC-Signal
 Requires:	perl-Net-Telnet
-Requires:	php-gettext
-Requires:	php-mysql
-Requires:	php-pcre
+Requires:	php(gettext)
+Requires:	php(mysql)
+Requires:	php(pcre)
+Requires:	php(posix)
 Requires:	php-pear-DB
-Requires:	php-posix
 Requires:	php-program
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
