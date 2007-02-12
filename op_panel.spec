@@ -1,5 +1,5 @@
 Summary:	Flash Operator Panel - a switchboard application for the Asterisk PBX
-Summary(pl):	Flash Operator Panel - pulpit kontrolny dla centralki Asterisk PBX
+Summary(pl.UTF-8):   Flash Operator Panel - pulpit kontrolny dla centralki Asterisk PBX
 Name:		op_panel
 Version:	0.26
 Release:	0.1
@@ -38,17 +38,17 @@ displays (for hosted PBX, different departments, etc). It can
 integrate with CRM software, by poping up a web page (and passing the
 CLID) when a specified button is ringing.
 
-%description -l pl
+%description -l pl.UTF-8
 Flash Operator Panel to aplikacja w stylu pulpitu kontrolnego dla
-centralki Asterisk PBX. Dzia³a z poziomu przegl±darki WWW z wtyczk±
-Flash. Mo¿e wy¶wietlaæ informacje o aktywno¶ci centralki w czasie
-rzeczywistym. Wygl±d jest konfigurowalny (rozmiary przycisków i
-kolory, ikony itp.). Mo¿na mieæ na ekranie ponad 100 aktywnych
-przycisków. Obs³uguje tak¿e konteksty: mo¿na mieæ jeden dzia³aj±cy
-serwer i wiele ró¿nych ekranów klienckich (dla hostowanych PBX-ów,
-ró¿nych wydzia³ów itp.). Potrafi integrowaæ siê z oprogramowaniem CRM
-poprzez wywo³ywanie strony WWW (i przekazywanie CLID) po uaktywnieniu
-okre¶lonego przycisku.
+centralki Asterisk PBX. DziaÅ‚a z poziomu przeglÄ…darki WWW z wtyczkÄ…
+Flash. MoÅ¼e wyÅ›wietlaÄ‡ informacje o aktywnoÅ›ci centralki w czasie
+rzeczywistym. WyglÄ…d jest konfigurowalny (rozmiary przyciskÃ³w i
+kolory, ikony itp.). MoÅ¼na mieÄ‡ na ekranie ponad 100 aktywnych
+przyciskÃ³w. ObsÅ‚uguje takÅ¼e konteksty: moÅ¼na mieÄ‡ jeden dziaÅ‚ajÄ…cy
+serwer i wiele rÃ³Å¼nych ekranÃ³w klienckich (dla hostowanych PBX-Ã³w,
+rÃ³Å¼nych wydziaÅ‚Ã³w itp.). Potrafi integrowaÄ‡ siÄ™ z oprogramowaniem CRM
+poprzez wywoÅ‚ywanie strony WWW (i przekazywanie CLID) po uaktywnieniu
+okreÅ›lonego przycisku.
 
 %prep
 %setup -q
