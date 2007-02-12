@@ -1,5 +1,5 @@
 Summary:	Flash Operator Panel - a switchboard application for the Asterisk PBX
-Summary(pl.UTF-8):   Flash Operator Panel - pulpit kontrolny dla centralki Asterisk PBX
+Summary(pl.UTF-8):	Flash Operator Panel - pulpit kontrolny dla centralki Asterisk PBX
 Name:		op_panel
 Version:	0.26
 Release:	0.1
